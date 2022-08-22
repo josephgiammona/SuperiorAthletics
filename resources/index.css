@@ -148,23 +148,46 @@ header {
 }
 
 header .headerContainer{
+    display: flex;
+    flex: 1;
     position: relative; 
     top: 3rem;
-    background-image: linear-gradient(to bottom right, hsla(120, 100%, 29%, 0.032), hsl(120, 40%, 49%));
+    background-image: linear-gradient(to bottom right, hsl(120, 40%, 19%), hsl(120, 40%, 39%));
     display: block;
-    max-width: 40%;
-    padding: .5rem 0;
+    min-width: 60%;
+    max-width: 60%;
+    height: auto;
+    padding: 1rem;
     margin: auto;
-    border-radius: 4rem 2rem/2rem 4rem;
+     border-radius: 4rem; /*/2rem 4rem; */
+    border: .125rem silver solid;
+    box-shadow: .5rem .5rem rgba(0, 0, 0, 0.518);
 
 }
-header h1 {
+header h1{
+    
     padding: 0;
     letter-spacing: .2rem;
-    font-family: 'Rubik Distressed', cursive; 
+    font-family: 'Aboreto', cursive;/* font-family: 'Rubik Distressed', cursive;  */
     display: block;
     font-size: 4rem;
-    color: white;
+    color: silver;
+    margin: 0;
+   min-width: 100%;
+   text-align: center;
+   border-bottom: .2rem silver solid;
+   border-bottom-left-radius:1%;
+   border-bottom-right-radius:1%;
+   
+}
+
+header h2 {
+    padding: 0;
+    letter-spacing: .2rem;
+    font-family: 'Aboreto', cursive;/* font-family: 'Rubik Distressed', cursive;  */
+    display: block;
+    font-size: 3rem;
+    color: silver;
     margin: 0;
    width: auto;
    text-align: center;
