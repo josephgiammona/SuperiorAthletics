@@ -15,12 +15,12 @@
 
 .navBar{
     display: flex;
-    background-color: hsl(0, 0%, 46%);
+    background-color: rgba(0, 0, 0, 0.301);
     color: hsl(120, 100%, 49%);
     justify-content: space-between;
     align-content: center;
     min-width: 100%;
-    height: auto;
+    height: 7rem;
 }
 
 .navList{
@@ -28,7 +28,7 @@
     display: flex;
     flex: 1;
     flex-flow: wrap;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-family: 'Rubik Distressed', cursive;
     justify-content: space-between;
@@ -55,19 +55,19 @@
 .imageContainer {
     display: flex;
     flex: 1;
-    max-width: 766px;
+    max-width: 100%;
     height: auto;
-    margin: auto 0;
-    padding: .2rem;
+    margin: auto;
+    padding: 0;
 }
 
 .imageContainer .logo{
     display: block;
-    max-width: 40%;
-    height: auto;
-    
+    max-width: 50%;
     border-radius: 6rem;
     margin: auto;
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
 @media only screen and (max-width: 426px){
@@ -128,67 +128,17 @@ header {
     text-align: center;
     margin: auto;
     
-    border: 2px solid black;
+    
     width: 100%;
     height: 1652px;
-    background:hsl(0, 0%, 46%);
+    background:white;
  
 }
-.backgroundImage{
-    background-image: url('../resources/images/gym.png');
-    max-width: 100%;
-    background-size: cover;
-    background-position: center;
-   
-    background-repeat: no-repeat;
-    height: 50%;
-    
-    /* border:1rem solid hsl(120, 100%, 49%) ; */
+
+header #missionStatement{
+    display: inline-flex;
+    flex:1;
 
 }
 
-header .headerContainer{
-    display: flex;
-    flex: 1;
-    position: relative; 
-    top: 3rem;
-    background-image: linear-gradient(to bottom right, hsl(120, 40%, 19%), hsl(120, 40%, 39%));
-    display: block;
-    min-width: 60%;
-    max-width: 60%;
-    height: auto;
-    padding: 1rem;
-    margin: auto;
-     border-radius: 4rem; /*/2rem 4rem; */
-    border: .125rem silver solid;
-    box-shadow: .5rem .5rem rgba(0, 0, 0, 0.518);
 
-}
-header h1{
-    
-    padding: 0;
-    letter-spacing: .2rem;
-    font-family: 'Aboreto', cursive;/* font-family: 'Rubik Distressed', cursive;  */
-    display: block;
-    font-size: 4rem;
-    color: silver;
-    margin: 0;
-   min-width: 100%;
-   text-align: center;
-   border-bottom: .2rem silver solid;
-   border-bottom-left-radius:1%;
-   border-bottom-right-radius:1%;
-   
-}
-
-header h2 {
-    padding: 0;
-    letter-spacing: .2rem;
-    font-family: 'Aboreto', cursive;/* font-family: 'Rubik Distressed', cursive;  */
-    display: block;
-    font-size: 3.4rem;
-    color: silver;
-    margin: 0;
-   width: auto;
-   text-align: center;
-}
